@@ -1,6 +1,6 @@
 module.exports = {
   extends: [
-    'airbnb-base/legacy',
+    'eslint-config-airbnb-base/legacy',
     './rules/best-practices',
     './rules/errors',
     './rules/legacy',
