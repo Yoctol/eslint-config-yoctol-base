@@ -1,0 +1,37 @@
+{
+  "name": "eslint-config-yoctol-base",
+  "version": "0.1.0",
+  "description": "Yoctol specific base linting rules for ESLint",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Yoctol/eslint-config-yoctol-base"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config",
+    "yoctol",
+    "javascript",
+    "styleguide"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Yoctol/eslint-config-yoctol-base/issues"
+  },
+  "homepage": "https://github.com/Yoctol/eslint-config-yoctol-base",
+  "devDependencies": {
+    "eslint": "^2.9.0",
+    "eslint-plugin-import": "^1.6.1"
+  },
+  "peerDependencies": {
+    "eslint": "^2.9.0",
+    "eslint-plugin-import": "^1.6.1"
+  },
+  "dependencies": {
+    "eslint-config-airbnb-base": "^2.0.0"
+  }
+}
