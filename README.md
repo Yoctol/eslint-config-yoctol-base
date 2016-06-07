@@ -25,3 +25,7 @@ Lints ES5 and below. Requires `eslint` and `eslint-plugin-import`.
 See [Airbnb's overarching ESLint config](https://npmjs.com/eslint-config-airbnb), [Airbnb's Javascript styleguide](https://github.com/airbnb/javascript), and the [ESlint config docs](http://eslint.org/docs/user-guide/configuring#extending-configuration-files) for more information.
 
 ## Rules be overwritted
+
+#### style
+
+- no-underscore-dangle: 0
