@@ -1,3 +1,7 @@
+0.3.0 / 2016-06-07
+==================
+- [breaking] disable `no-underscore-dangle`
+
 0.2.0 / 2016-05-10
 ==================
 - [deps] Update `eslint-config-airbnb-base` to `3.0.1`
