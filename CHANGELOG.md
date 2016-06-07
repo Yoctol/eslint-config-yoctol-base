@@ -1,3 +1,7 @@
+0.3.1 / 2016-06-07
+==================
+- [fix] Avoid eslint-config-airbnb-base overwrite yoctol's legacy rules directly
+
 0.3.0 / 2016-06-07
 ==================
 - [breaking] disable `no-underscore-dangle`
