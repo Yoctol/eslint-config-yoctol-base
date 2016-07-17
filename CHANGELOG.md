@@ -1,3 +1,9 @@
+HEAD
+==================
+- [deps] Update `eslint` to `3.1.0`
+- [deps] Update `eslint-plugin-import` to `1.10.3`
+- [deps] Update `eslint-config-airbnb-base` to `4.0.2`
+
 0.3.1 / 2016-06-07
 ==================
 - [fix] Avoid eslint-config-airbnb-base overwrite yoctol's legacy rules directly
