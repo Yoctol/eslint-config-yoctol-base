@@ -1,4 +1,4 @@
-HEAD
+0.4.0 / 2016-07-18
 ==================
 - [deps] Update `eslint` to `3.1.0`
 - [deps] Update `eslint-plugin-import` to `1.10.3`
