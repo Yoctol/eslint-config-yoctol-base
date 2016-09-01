@@ -1,3 +1,11 @@
+0.5.0 / 2016-09-01
+==================
+- [deps] Update `eslint` to `3.3.1`
+- [deps] Update `eslint-plugin-import` to `1.13.0`
+- [deps] Update `eslint-config-airbnb-base` to `5.0.3`
+- [breaking] disable `import/prefer-default-export`
+- [breaking] enable `import/order`
+
 0.4.0 / 2016-07-18
 ==================
 - [deps] Update `eslint` to `3.1.0`
