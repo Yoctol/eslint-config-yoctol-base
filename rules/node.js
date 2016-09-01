@@ -1,17 +1,17 @@
 module.exports = {
-  'env': {
-    'node': true,
+  env: {
+    node: true,
   },
-  'plugins': [
+  plugins: [
     'import'
   ],
-  'rules': {
+  rules: {
 
   },
-  'settings': {
+  settings: {
     'import/resolver': {
-      'node': {
-        'extensions': ['.js', '.json']
+      node: {
+        extensions: ['.js', '.json']
       }
     }
   }
