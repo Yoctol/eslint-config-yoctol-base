@@ -11,17 +11,8 @@ module.exports = {
       'objectLiteralDuplicateProperties': false,
     },
   },
-  'plugins': [
-    'import'
-  ],
+
   'rules': {
 
-  },
-  'settings': {
-    'import/resolver': {
-      'node': {
-        'extensions': ['.js', '.json']
-      }
-    }
   }
 };
