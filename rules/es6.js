@@ -1,18 +1,18 @@
 module.exports = {
-  'env': {
-    'es6': true,
+  env: {
+    es6: true,
   },
-  'parserOptions': {
-    'ecmaVersion': 6,
-    'sourceType': 'module',
-    'ecmaFeatures': {
-      'jsx': true,
-      'generators': false,
-      'objectLiteralDuplicateProperties': false,
+  parserOptions: {
+    ecmaVersion: 6,
+    sourceType: 'module',
+    ecmaFeatures: {
+      jsx: true,
+      generators: false,
+      objectLiteralDuplicateProperties: false,
     },
   },
 
-  'rules': {
+  rules: {
 
   }
 };
