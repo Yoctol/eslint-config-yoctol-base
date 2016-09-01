@@ -6,16 +6,16 @@ module.exports = {
     './rules/legacy',
     './rules/node',
     './rules/style',
-    './rules/variables'
+    './rules/variables',
   ].map(require.resolve),
   env: {
     browser: true,
     node: true,
     amd: false,
     mocha: false,
-    jasmine: false
+    jasmine: false,
   },
   ecmaFeatures: {},
   globals: {},
-  rules: {}
+  rules: {},
 };
