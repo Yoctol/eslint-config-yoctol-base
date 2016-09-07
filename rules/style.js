@@ -2,6 +2,10 @@ module.exports = {
   rules: {
     // allow dangling underscores in identifiers
     // Proposal - https://github.com/Yoctol/eslint-config-yoctol-base/issues/3
-    'no-underscore-dangle': 'off'
+    'no-underscore-dangle': 'off',
+    
+    // allow both 'LF' and 'CRLF' as linebreaks
+    // Proposal - https://github.com/Yoctol/eslint-config-yoctol-base/issues/25
+    'linebreak-style': 'off',
   }
 };
