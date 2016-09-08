@@ -23,7 +23,7 @@ Our default export contains all of our ESLint rules, including ECMAScript 6+. It
   Which produces and runs a command like:
 
   ```sh
-    npm install --save-dev eslint-config-yoctol-base eslint@^3.0.1 eslint-plugin-import@^1.10.3
+    npm install --save-dev eslint-config-yoctol-base eslint@^#.#.# eslint-plugin-import@^#.#.#
   ```
 
 2. Add `"extends": "yoctol-base"` to your .eslintrc
@@ -43,7 +43,7 @@ Lints ES5 and below. Requires `eslint` and `eslint-plugin-import`.
   Which produces and runs a command like:
 
   ```sh
-  npm install --save-dev eslint-config-yoctol-base eslint@^3.0.1 eslint-plugin-import@^1.10.3
+  npm install --save-dev eslint-config-yoctol-base eslint@^#.#.# eslint-plugin-import@^#.#.#
   ```
 
 2. Add `"extends": "yoctol-base/legacy"` to your .eslintrc
@@ -55,7 +55,14 @@ See [Airbnb's overarching ESLint config](https://npmjs.com/eslint-config-airbnb)
 #### style
 
 ```
+- linebreak-style: 'off'
+- no-plusplus: ['error', { allowForLoopAfterthoughts: true }]
 - no-underscore-dangle: 'off'
+```
+
+#### import
+
+```
 - import/prefer-default-export: 'off'
 - import/order: ['error', {
   groups: ['builtin', 'external', 'internal', 'parent', 'sibling', 'index'],
