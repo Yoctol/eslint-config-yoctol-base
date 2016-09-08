@@ -55,7 +55,14 @@ See [Airbnb's overarching ESLint config](https://npmjs.com/eslint-config-airbnb)
 #### style
 
 ```
+- linebreak-style: 'off'
+- no-plusplus: ['error', { allowForLoopAfterthoughts: true }]
 - no-underscore-dangle: 'off'
+```
+
+#### import
+
+```
 - import/prefer-default-export: 'off'
 - import/order: ['error', {
   groups: ['builtin', 'external', 'internal', 'parent', 'sibling', 'index'],

@@ -1,3 +1,11 @@
+0.6.0 / 2016-09-08
+==================
+- [deps] Update `eslint` to `3.4.0`
+- [deps] Update `eslint-plugin-import` to `1.14.0`
+- [deps] Update `eslint-config-airbnb-base` to `7.0.0`
+- [breaking] disable `linebreak-style`
+- [breaking] enable `no-plusplus` but allow for loop afterthoughts
+
 0.5.0 / 2016-09-01
 ==================
 - [deps] Update `eslint` to `3.3.1`
