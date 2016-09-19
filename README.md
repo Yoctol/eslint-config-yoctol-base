@@ -56,6 +56,13 @@ See [Airbnb's overarching ESLint config](https://npmjs.com/eslint-config-airbnb)
 
 ```
 - linebreak-style: 'off'
+- max-len: ['error', 100, 2, {
+  ignorePattern: ' // eslint-disable-line ',
+  ignoreUrls: true,
+  ignoreComments: false,
+  ignoreStrings: true,
+  ignoreTemplateLiterals: true,
+}]
 - no-plusplus: ['error', { allowForLoopAfterthoughts: true }]
 - no-underscore-dangle: 'off'
 ```
