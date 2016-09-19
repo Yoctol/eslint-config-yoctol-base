@@ -1,3 +1,9 @@
+0.7.0 / 2016-09-19
+==================
+- [deps] Update `eslint` to `3.5.0`
+- [deps] Update `eslint-config-airbnb-base` to `7.1.0`
+- [breaking] disable `max-len` for ` // eslint-disable-line ` pattern
+
 0.6.0 / 2016-09-08
 ==================
 - [deps] Update `eslint` to `3.4.0`
