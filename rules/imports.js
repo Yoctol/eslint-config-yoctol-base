@@ -29,6 +29,18 @@ module.exports = {
   },
 
   rules: {
+    // Forbid the use of extraneous packages, allow some in tests
+    // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-extraneous-dependencies.md
+    // Proposal - https://github.com/Yoctol/eslint-config-yoctol-base/issues/34
+    'import/no-extraneous-dependencies': ['error', {
+      devDependencies: [
+        '**/__tests__/*.spec.js',
+        '**/__stories__/*.story.js',
+        'scripts/*.js',
+        'webpack.config.*.js',
+      ],
+    }],
+
     // Enforce a convention in module import order
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/order.md
     // Proposal - https://github.com/Yoctol/eslint-config-yoctol-base/issues/8
