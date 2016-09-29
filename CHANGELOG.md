@@ -1,3 +1,10 @@
+0.8.0 / 2016-09-29
+==================
+- [deps] Update `eslint` to `3.6.0`
+- [deps] Update `eslint-plugin-import` to `1.16.0`
+- [deps] Update `eslint-config-airbnb-base` to `8.0.0`
+- [breaking] disable `import/no-extraneous-dependencies` for some dev file patterns
+
 0.7.0 / 2016-09-19
 ==================
 - [deps] Update `eslint` to `3.5.0`
