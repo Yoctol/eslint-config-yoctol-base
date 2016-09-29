@@ -2,7 +2,9 @@
 
 > Fork from [eslint-config-airbnb-base](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb-base)
 
-[![npm version](https://badge.fury.io/js/eslint-config-yoctol-base.svg)](http://badge.fury.io/js/eslint-config-yoctol-base)
+[![NPM version][npm-image]][npm-url]
+[![Build Status][travis-image]][travis-url]
+[![Dependency Status][david_img]][david_site]
 
 ## Usage
 
@@ -84,3 +86,10 @@ See [Airbnb's overarching ESLint config](https://npmjs.com/eslint-config-airbnb)
   ],
 }]
 ```
+
+[npm-image]: https://badge.fury.io/js/eslint-config-yoctol-base.svg
+[npm-url]: https://npmjs.org/package/eslint-config-yoctol-base
+[travis-image]: https://travis-ci.org/Yoctol/eslint-config-yoctol-base.svg
+[travis-url]: https://travis-ci.org/Yoctol/eslint-config-yoctol-base
+[david_img]: https://david-dm.org/Yoctol/eslint-config-yoctol-base.svg
+[david_site]: https://david-dm.org/Yoctol/eslint-config-yoctol-base
