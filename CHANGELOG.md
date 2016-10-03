@@ -1,3 +1,7 @@
+0.8.1 / 2016-10-03
+==================
+- [fix] using `**/` in `import/no-extraneous-dependencies` patterns
+
 0.8.0 / 2016-09-29
 ==================
 - [deps] Update `eslint` to `3.6.0`
