@@ -81,8 +81,9 @@ See [Airbnb's overarching ESLint config](https://npmjs.com/eslint-config-airbnb)
   devDependencies: [
     '**/__tests__/*.spec.js',
     '**/__stories__/*.story.js',
-    'scripts/*.js',
-    'webpack.config.*.js',
+    '**/scripts/*.js',
+    '**/test/**/*.js',
+    '**/webpack.config.*.js',
   ],
 }]
 ```
