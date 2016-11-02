@@ -18,7 +18,7 @@ Our default export contains all of our ESLint rules, including ECMAScript 6+. It
   ```sh
   (
     export PKG=eslint-config-yoctol-base;
-    npm info "$PKG" peerDependencies --json | command sed 's/[\{\},]//g ; s/: /@/g' | xargs npm install --save-dev "$PKG"
+    npm info "$PKG@latest" peerDependencies --json | command sed 's/[\{\},]//g ; s/: /@/g' | xargs npm install --save-dev "$PKG@latest"
   )
   ```
 
