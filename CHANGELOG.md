@@ -1,3 +1,9 @@
+0.10.0 / 2016-11-08
+==================
+- [deps] Update `eslint` to `3.9.1`
+- [deps] Update `eslint-plugin-import` to `2.1.0`
+- [deps] Update `eslint-config-airbnb-base` to `10.0.0`
+
 0.9.0 / 2016-11-03
 ==================
 - [deps] Update `eslint` to `3.8.0`
