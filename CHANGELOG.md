@@ -1,3 +1,8 @@
+0.11.0 / 2016-12-09
+==================
+- [breaking] ignore `comma-dangle` in `functions`
+- [breaking] disable `requireForBlockBody` in `arrow-parens`
+
 0.10.0 / 2016-11-08
 ==================
 - [deps] Update `eslint` to `3.9.1`
