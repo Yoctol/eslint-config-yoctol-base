@@ -69,6 +69,12 @@ See [Airbnb's overarching ESLint config](https://npmjs.com/eslint-config-airbnb)
 - no-underscore-dangle: 'off'
 ```
 
+#### es6
+
+```
+- 'arrow-parens': ['error', 'as-needed']
+```
+
 #### import
 
 ```
