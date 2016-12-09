@@ -67,21 +67,6 @@ See [Airbnb's overarching ESLint config](https://npmjs.com/eslint-config-airbnb)
 
 ```
 
-#### style
-
-```
-- linebreak-style: 'off'
-- max-len: ['error', 100, 2, {
-  ignorePattern: ' // eslint-disable-line ',
-  ignoreUrls: true,
-  ignoreComments: false,
-  ignoreStrings: true,
-  ignoreTemplateLiterals: true,
-}]
-- no-plusplus: ['error', { allowForLoopAfterthoughts: true }]
-- no-underscore-dangle: 'off'
-```
-
 #### es6
 
 ```
@@ -105,6 +90,21 @@ See [Airbnb's overarching ESLint config](https://npmjs.com/eslint-config-airbnb)
     '**/webpack.config.*.js',
   ],
 }]
+```
+
+#### style
+
+```
+- linebreak-style: 'off'
+- max-len: ['error', 100, 2, {
+  ignorePattern: ' // eslint-disable-line ',
+  ignoreUrls: true,
+  ignoreComments: false,
+  ignoreStrings: true,
+  ignoreTemplateLiterals: true,
+}]
+- no-plusplus: ['error', { allowForLoopAfterthoughts: true }]
+- no-underscore-dangle: 'off'
 ```
 
 [npm-image]: https://badge.fury.io/js/eslint-config-yoctol-base.svg
