@@ -1,3 +1,9 @@
+0.12.0 / 2016-12-13
+==================
+- [deps] Update `eslint` to `3.12.1`
+- [deps] Update `eslint-plugin-import` to `2.2.0`
+- [deps] Update `eslint-config-airbnb-base` to `11.0.0`
+
 0.11.0 / 2016-12-09
 ==================
 - [breaking] ignore `comma-dangle` in `functions`
