@@ -1,3 +1,10 @@
+0.12.1 / 2017-01-09
+==================
+- [deps] update `eslint`
+- [deps] update `eslint-config-airbnb-base`
+- [docs] add note about `install-peerdeps`
+- [docs] Updated instructions to support non-bash users
+
 0.12.0 / 2016-12-13
 ==================
 - [deps] Update `eslint` to `3.12.1`
