@@ -14,7 +14,14 @@ We export two ESLint configurations for your usage.
 
 Our default export contains all of our ESLint rules, including ECMAScript 6+. It requires `eslint` and `eslint-plugin-import`.
 
-1. Ensure packages are installed with correct version numbers by running:
+1. Install the correct versions of each package, which are listed by the command:
+
+  ```sh
+  npm info "eslint-config-yoctol-base@latest" peerDependencies
+  ```
+
+  Linux/OSX users can simply run
+
   ```sh
   (
     export PKG=eslint-config-yoctol-base;
@@ -28,13 +35,33 @@ Our default export contains all of our ESLint rules, including ECMAScript 6+. It
     npm install --save-dev eslint-config-yoctol-base eslint@^#.#.# eslint-plugin-import@^#.#.#
   ```
 
+  Windows users can either install all the peer dependencies manually, or use the [install-peerdeps](https://github.com/nathanhleung/install-peerdeps) cli tool.
+
+  ```sh
+  npm install -g install-peerdeps
+  install-peerdeps --dev eslint-config-yoctol-base
+  ```
+
+  The cli will produce and run a command like:
+
+  ```sh
+  npm install --save-dev eslint-config-yoctol-base eslint@^#.#.# eslint-plugin-import@^#.#.#
+  ```
+
 2. Add `"extends": "yoctol-base"` to your .eslintrc
 
 ### eslint-config-yoctol-base/legacy
 
 Lints ES5 and below. Requires `eslint` and `eslint-plugin-import`.
 
-1. Ensure packages are installed with correct version numbers by running:
+1. Install the correct versions of each package, which are listed by the command:
+
+  ```sh
+  npm info "eslint-config-yoctol-base@latest" peerDependencies
+  ```
+
+  Linux/OSX users can simply run
+
   ```sh
   (
     export PKG=eslint-config-yoctol-base;
