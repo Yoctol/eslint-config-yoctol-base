@@ -1,3 +1,8 @@
+0.12.4 / 2017-04-05
+==================
+- [deps] update `eslint` to `3.19.0`
+- [deps] update `eslint-config-airbnb-base` to `11.1.3`
+
 0.12.3 / 2017-04-05
 ==================
 - [new] enable `max-len` - `ignoreRegExpLiterals`
