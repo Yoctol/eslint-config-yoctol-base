@@ -14,6 +14,7 @@ module.exports = {
       ignoreComments: false,
       ignoreStrings: true,
       ignoreTemplateLiterals: true,
+      ignoreRegExpLiterals: true,
     }],
 
     // disallow use of unary operators, ++ and --

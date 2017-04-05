@@ -129,6 +129,7 @@ See [Airbnb's overarching ESLint config](https://npmjs.com/eslint-config-airbnb)
   ignoreComments: false,
   ignoreStrings: true,
   ignoreTemplateLiterals: true,
+  ignoreRegExpLiterals: true,
 }]
 - no-plusplus: ['error', { allowForLoopAfterthoughts: true }]
 - no-underscore-dangle: 'off'
