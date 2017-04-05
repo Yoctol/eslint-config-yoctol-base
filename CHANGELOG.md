@@ -1,3 +1,7 @@
+0.12.3 / 2017-04-05
+==================
+- [deps] enable `max-len` - `ignoreRegExpLiterals`
+
 0.12.2 / 2017-03-27
 ==================
 - [deps] update `eslint` to `3.18.0`
