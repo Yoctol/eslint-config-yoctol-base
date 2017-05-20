@@ -1,5 +1,7 @@
 # eslint-config-yoctol-base
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/Yoctol/eslint-config-yoctol-base.svg)](https://greenkeeper.io/)
+
 > Fork from [eslint-config-airbnb-base](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb-base)
 
 [![NPM version][npm-image]][npm-url]
