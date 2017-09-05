@@ -1,3 +1,8 @@
+0.14.0 / 2017-09-05
+==================
+- [deps] update `eslint-config-airbnb-base` to `12.0.0`
+- [breaking] Drop eslint v3 support
+
 0.13.0 / 2017-08-02
 ==================
 - [deps] update `eslint-config-airbnb-base` to `11.3.1`
