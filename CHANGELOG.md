@@ -1,3 +1,8 @@
+0.14.1 / 2017-10-15
+==================
+- [deps] update `eslint-config-airbnb-base` to `12.0.2`
+- [deps] update `eslint` to `4.8.0`
+
 0.14.0 / 2017-09-05
 ==================
 - [deps] update `eslint-config-airbnb-base` to `12.0.0`
