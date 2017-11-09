@@ -14,5 +14,17 @@ module.exports = {
 
   rules: {
     'arrow-parens': ['error', 'as-needed'],
+    'prefer-destructuring': ['error', {
+      VariableDeclarator: {
+        array: false,
+        object: true,
+      },
+      AssignmentExpression: {
+        array: false,
+        object: true,
+      },
+    }, {
+      enforceForRenamedProperties: false,
+    }],
   },
 };
