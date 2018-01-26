@@ -4,6 +4,6 @@ module.exports = {
     'class-methods-use-this': 'off',
 
     // https://eslint.org/docs/rules/consistent-return
-    'consistent-return': 'off'
-  }
+    'consistent-return': 'off',
+  },
 };
