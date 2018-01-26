@@ -1,6 +1,6 @@
 module.exports = {
   env: {
-    es6: true,
+    es6: true
   },
   parserOptions: {
     ecmaVersion: 6,
@@ -8,23 +8,30 @@ module.exports = {
     ecmaFeatures: {
       jsx: true,
       generators: false,
-      objectLiteralDuplicateProperties: false,
-    },
+      objectLiteralDuplicateProperties: false
+    }
   },
 
   rules: {
+    // https://eslint.org/docs/rules/arrow-parens
     'arrow-parens': ['error', 'as-needed'],
-    'prefer-destructuring': ['error', {
-      VariableDeclarator: {
-        array: false,
-        object: true,
+
+    // https://eslint.org/docs/rules/prefer-destructuring
+    'prefer-destructuring': [
+      'error',
+      {
+        VariableDeclarator: {
+          array: false,
+          object: true
+        },
+        AssignmentExpression: {
+          array: false,
+          object: true
+        }
       },
-      AssignmentExpression: {
-        array: false,
-        object: true,
-      },
-    }, {
-      enforceForRenamedProperties: false,
-    }],
-  },
+      {
+        enforceForRenamedProperties: false
+      }
+    ]
+  }
 };

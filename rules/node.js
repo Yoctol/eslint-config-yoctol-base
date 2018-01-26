@@ -1,12 +1,11 @@
 module.exports = {
   env: {
-    node: true,
+    node: true
   },
-  plugins: [
-    'import'
-  ],
+  plugins: ['import'],
   rules: {
-
+    // https://eslint.org/docs/rules/global-require
+    'global-require': 'off'
   },
   settings: {
     'import/resolver': {
