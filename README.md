@@ -17,37 +17,38 @@ Our default export contains all of our ESLint rules, including ECMAScript 6+. It
 
 1. Install the correct versions of each package, which are listed by the command:
 
-  ```sh
-  npm info "eslint-config-yoctol-base@latest" peerDependencies
-  ```
 
-  Linux/OSX users can simply run
+```sh
+npm info "eslint-config-yoctol-base@latest" peerDependencies
+```
 
-  ```sh
-  (
-    export PKG=eslint-config-yoctol-base;
-    npm info "$PKG@latest" peerDependencies --json | command sed 's/[\{\},]//g ; s/: /@/g' | xargs npm install --save-dev "$PKG@latest"
-  )
-  ```
+Linux/OSX users can simply run
 
-  Which produces and runs a command like:
+```sh
+(
+  export PKG=eslint-config-yoctol-base;
+  npm info "$PKG@latest" peerDependencies --json | command sed 's/[\{\},]//g ; s/: /@/g' | xargs npm install --save-dev "$PKG@latest"
+)
+```
 
-  ```sh
-    npm install --save-dev eslint-config-yoctol-base eslint@^#.#.# eslint-plugin-import@^#.#.#
-  ```
+Which produces and runs a command like:
 
-  Windows users can either install all the peer dependencies manually, or use the [install-peerdeps](https://github.com/nathanhleung/install-peerdeps) cli tool.
+```sh
+  npm install --save-dev eslint-config-yoctol-base eslint@^#.#.# eslint-plugin-import@^#.#.# eslint-plugin-prettier@^#.#.#
+```
 
-  ```sh
-  npm install -g install-peerdeps
-  install-peerdeps --dev eslint-config-yoctol-base
-  ```
+Windows users can either install all the peer dependencies manually, or use the [install-peerdeps](https://github.com/nathanhleung/install-peerdeps) cli tool.
 
-  The cli will produce and run a command like:
+```sh
+npm install -g install-peerdeps
+install-peerdeps --dev eslint-config-yoctol-base
+```
 
-  ```sh
-  npm install --save-dev eslint-config-yoctol-base eslint@^#.#.# eslint-plugin-import@^#.#.#
-  ```
+The cli will produce and run a command like:
+
+```sh
+npm install --save-dev eslint-config-yoctol-base eslint@^#.#.# eslint-plugin-import@^#.#.# eslint-plugin-prettier@^#.#.#
+```
 
 2. Add `"extends": "yoctol-base"` to your .eslintrc
 
@@ -57,24 +58,25 @@ Lints ES5 and below. Requires `eslint` and `eslint-plugin-import`.
 
 1. Install the correct versions of each package, which are listed by the command:
 
-  ```sh
-  npm info "eslint-config-yoctol-base@latest" peerDependencies
-  ```
 
-  Linux/OSX users can simply run
+```sh
+npm info "eslint-config-yoctol-base@latest" peerDependencies
+```
 
-  ```sh
-  (
-    export PKG=eslint-config-yoctol-base;
-    npm info "$PKG" peerDependencies --json | command sed 's/[\{\},]//g ; s/: /@/g' | xargs npm install --save-dev "$PKG"
-  )
-  ```
+Linux/OSX users can simply run
 
-  Which produces and runs a command like:
+```sh
+(
+  export PKG=eslint-config-yoctol-base;
+  npm info "$PKG" peerDependencies --json | command sed 's/[\{\},]//g ; s/: /@/g' | xargs npm install --save-dev "$PKG"
+)
+```
 
-  ```sh
-  npm install --save-dev eslint-config-yoctol-base eslint@^#.#.# eslint-plugin-import@^#.#.#
-  ```
+Which produces and runs a command like:
+
+```sh
+npm install --save-dev eslint-config-yoctol-base eslint@^#.#.# eslint-plugin-import@^#.#.# eslint-plugin-prettier@^#.#.#
+```
 
 2. Add `"extends": "yoctol-base/legacy"` to your .eslintrc
 
@@ -92,7 +94,6 @@ See [Airbnb's overarching ESLint config](https://npmjs.com/eslint-config-airbnb)
     exports: 'always-multiline',
     functions: 'ignore',
   }]
-
 ```
 
 #### es6
