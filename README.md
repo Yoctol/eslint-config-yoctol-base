@@ -13,7 +13,7 @@ We export two ESLint configurations for your usage.
 
 ### eslint-config-yoctol-base
 
-Our default export contains all of our ESLint rules, including ECMAScript 6+. It requires `eslint` and `eslint-plugin-import`.
+Our default export contains all of our ESLint rules, including ECMAScript 6+. It requires `eslint`, `eslint-plugin-import` and `eslint-plugin-prettier`.
 
 1. Install the correct versions of each package, which are listed by the command:
 
