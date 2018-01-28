@@ -105,7 +105,22 @@ See [Airbnb's overarching ESLint config](https://npmjs.com/eslint-config-airbnb)
 
 ```
 - 'arrow-parens': ['error', 'as-needed']
-- 'prefer-destructuring': 'off'
+- 'prefer-destructuring': [
+  'error',
+  {
+    VariableDeclarator: {
+      array: false,
+      object: true
+    },
+    AssignmentExpression: {
+      array: false,
+      object: true
+    }
+  },
+  {
+    enforceForRenamedProperties: false
+  }
+]
 ```
 
 #### import

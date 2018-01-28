@@ -1,6 +1,6 @@
 module.exports = {
   env: {
-    es6: true
+    es6: true,
   },
   parserOptions: {
     ecmaVersion: 6,
@@ -8,8 +8,8 @@ module.exports = {
     ecmaFeatures: {
       jsx: true,
       generators: false,
-      objectLiteralDuplicateProperties: false
-    }
+      objectLiteralDuplicateProperties: false,
+    },
   },
 
   rules: {
@@ -22,16 +22,16 @@ module.exports = {
       {
         VariableDeclarator: {
           array: false,
-          object: true
+          object: true,
         },
         AssignmentExpression: {
           array: false,
-          object: true
-        }
+          object: true,
+        },
       },
       {
-        enforceForRenamedProperties: false
-      }
-    ]
-  }
+        enforceForRenamedProperties: false,
+      },
+    ],
+  },
 };
