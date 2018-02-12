@@ -1,3 +1,7 @@
+# 0.15.1 / 2018-02-12
+
+* [disable] prefer-destructuring: AssignmentExpression - object: false
+
 # 0.15.0 / 2018-01-28
 
 * [new] Add and disable some rules:
