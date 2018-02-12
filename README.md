@@ -114,7 +114,7 @@ See [Airbnb's overarching ESLint config](https://npmjs.com/eslint-config-airbnb)
     },
     AssignmentExpression: {
       array: false,
-      object: true
+      object: false
     }
   },
   {
