@@ -1,3 +1,7 @@
+# 0.16.0 / 2018-06-25
+
+* [deps] update `eslint-config-airbnb-base` to `13.0.0`
+
 # 0.15.1 / 2018-02-12
 
 * [disable] prefer-destructuring: AssignmentExpression - object: false
