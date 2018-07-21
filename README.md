@@ -15,7 +15,7 @@ We export two ESLint configurations for your usage.
 
 Our default export contains all of our ESLint rules, including ECMAScript 6+. It requires `eslint`, `eslint-plugin-import` and `eslint-plugin-prettier`.
 
-1. Install the correct versions of each package, which are listed by the command:
+1.  Install the correct versions of each package, which are listed by the command:
 
 ```sh
 npm info "eslint-config-yoctol-base@latest" peerDependencies
@@ -49,13 +49,13 @@ The cli will produce and run a command like:
 npm install --save-dev eslint-config-yoctol-base eslint@^#.#.# eslint-plugin-import@^#.#.# eslint-plugin-prettier@^#.#.#
 ```
 
-2. Add `"extends": "yoctol-base"` to your .eslintrc
+2.  Add `"extends": "yoctol-base"` to your .eslintrc
 
 ### eslint-config-yoctol-base/legacy
 
 Lints ES5 and below. Requires `eslint` and `eslint-plugin-import`.
 
-1. Install the correct versions of each package, which are listed by the command:
+1.  Install the correct versions of each package, which are listed by the command:
 
 ```sh
 npm info "eslint-config-yoctol-base@latest" peerDependencies
@@ -76,7 +76,7 @@ Which produces and runs a command like:
 npm install --save-dev eslint-config-yoctol-base eslint@^#.#.# eslint-plugin-import@^#.#.# eslint-plugin-prettier@^#.#.#
 ```
 
-2. Add `"extends": "yoctol-base/legacy"` to your .eslintrc
+2.  Add `"extends": "yoctol-base/legacy"` to your .eslintrc
 
 See [Airbnb's overarching ESLint config](https://npmjs.com/eslint-config-airbnb), [Airbnb's Javascript styleguide](https://github.com/airbnb/javascript), and the [ESlint config docs](http://eslint.org/docs/user-guide/configuring#extending-configuration-files) for more information.
 
@@ -162,6 +162,24 @@ See [Airbnb's overarching ESLint config](https://npmjs.com/eslint-config-airbnb)
 }]
 - no-plusplus: ['error', { allowForLoopAfterthoughts: true }]
 - no-underscore-dangle: 'off'
+- no-restricted-syntax: [
+  'error',
+  {
+    selector: 'ForInStatement',
+    message:
+      'for..in loops iterate over the entire prototype chain, which is virtually never what you want. Use Object.{keys,values,entries}, and iterate over the resulting array.',
+  },
+  {
+    selector: 'LabeledStatement',
+    message:
+      'Labels are a form of GOTO; using them makes code confusing and hard to maintain and understand.',
+  },
+  {
+    selector: 'WithStatement',
+    message:
+      '`with` is disallowed in strict mode because it makes code impossible to predict and optimize.',
+  },
+]
 ```
 
 ### prettier
