@@ -15,6 +15,7 @@ module.exports = {
     './rules/es6',
     './rules/imports',
     './rules/prettier',
+    './rules/sort-imports-es6-autofix',
   ].map(require.resolve),
   parserOptions: {
     ecmaVersion: 2017,

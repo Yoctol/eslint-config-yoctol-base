@@ -8,6 +8,7 @@ module.exports = {
     './rules/style',
     './rules/variables',
     './rules/prettier',
+    './rules/sort-imports-es6-autofix',
   ].map(require.resolve),
   env: {
     browser: true,
