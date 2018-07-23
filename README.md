@@ -13,9 +13,9 @@ We export two ESLint configurations for your usage.
 
 ### eslint-config-yoctol-base
 
-Our default export contains all of our ESLint rules, including ECMAScript 6+. It requires `eslint`, `eslint-plugin-import` and `eslint-plugin-prettier`.
+Our default export contains all of our ESLint rules, including ECMAScript 6+. It requires `eslint`, `eslint-plugin-import`, `eslint-plugin-prettier` and `eslint-plugin-sort-imports-es6-autofix`.
 
-1. Install the correct versions of each package, which are listed by the command:
+1.  Install the correct versions of each package, which are listed by the command:
 
 ```sh
 npm info "eslint-config-yoctol-base@latest" peerDependencies
@@ -33,7 +33,7 @@ Linux/OSX users can simply run
 Which produces and runs a command like:
 
 ```sh
-  npm install --save-dev eslint-config-yoctol-base eslint@^#.#.# eslint-plugin-import@^#.#.# eslint-plugin-prettier@^#.#.#
+  npm install --save-dev eslint-config-yoctol-base eslint@^#.#.# eslint-plugin-import@^#.#.# eslint-plugin-prettier@^#.#.# eslint-plugin-sort-imports-es6-autofix@^#.#.#
 ```
 
 Windows users can either install all the peer dependencies manually, or use the [install-peerdeps](https://github.com/nathanhleung/install-peerdeps) cli tool.
@@ -46,16 +46,16 @@ install-peerdeps --dev eslint-config-yoctol-base
 The cli will produce and run a command like:
 
 ```sh
-npm install --save-dev eslint-config-yoctol-base eslint@^#.#.# eslint-plugin-import@^#.#.# eslint-plugin-prettier@^#.#.#
+npm install --save-dev eslint-config-yoctol-base eslint@^#.#.# eslint-plugin-import@^#.#.# eslint-plugin-prettier@^#.#.# eslint-plugin-sort-imports-es6-autofix@^#.#.#
 ```
 
-2. Add `"extends": "yoctol-base"` to your .eslintrc
+2.  Add `"extends": "yoctol-base"` to your .eslintrc
 
 ### eslint-config-yoctol-base/legacy
 
 Lints ES5 and below. Requires `eslint` and `eslint-plugin-import`.
 
-1. Install the correct versions of each package, which are listed by the command:
+1.  Install the correct versions of each package, which are listed by the command:
 
 ```sh
 npm info "eslint-config-yoctol-base@latest" peerDependencies
@@ -73,10 +73,10 @@ Linux/OSX users can simply run
 Which produces and runs a command like:
 
 ```sh
-npm install --save-dev eslint-config-yoctol-base eslint@^#.#.# eslint-plugin-import@^#.#.# eslint-plugin-prettier@^#.#.#
+npm install --save-dev eslint-config-yoctol-base eslint@^#.#.# eslint-plugin-import@^#.#.# eslint-plugin-prettier@^#.#.# eslint-plugin-sort-imports-es6-autofix@^#.#.#
 ```
 
-2. Add `"extends": "yoctol-base/legacy"` to your .eslintrc
+2.  Add `"extends": "yoctol-base/legacy"` to your .eslintrc
 
 See [Airbnb's overarching ESLint config](https://npmjs.com/eslint-config-airbnb), [Airbnb's Javascript styleguide](https://github.com/airbnb/javascript), and the [ESlint config docs](http://eslint.org/docs/user-guide/configuring#extending-configuration-files) for more information.
 
@@ -167,12 +167,25 @@ See [Airbnb's overarching ESLint config](https://npmjs.com/eslint-config-airbnb)
 ### prettier
 
 ```
-- 'prettier/prettier': [
+- prettier/prettier: [
   'error',
   {
     trailingComma: 'es5',
     singleQuote: true
   }
+]
+```
+
+### sort-imports-es6-autofix
+
+```
+- sort-imports-es6-autofix/sort-imports-es6: [
+  'error',
+  {
+    ignoreCase: false,
+    ignoreMemberSort: false,
+    memberSyntaxSortOrder: ['single', 'multiple', 'all', 'none'],
+  },
 ]
 ```
 
