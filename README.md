@@ -180,6 +180,7 @@ See [Airbnb's overarching ESLint config](https://npmjs.com/eslint-config-airbnb)
       '`with` is disallowed in strict mode because it makes code impossible to predict and optimize.',
   },
 ]
+(Note: remove ForOfStatement from airbnb's no-restricted-syntax)
 ```
 
 ### prettier
