@@ -24,19 +24,19 @@
   },
   "homepage": "https://github.com/Yoctol/eslint-config-yoctol-base",
   "dependencies": {
-    "eslint-config-airbnb-base": "^13.0.0",
-    "eslint-config-prettier": "^3.0.0",
-    "prettier": "^1.13.7"
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-prettier": "^3.0.1",
+    "prettier": "^1.14.2"
   },
   "devDependencies": {
-    "eslint": "^4.19.1",
-    "eslint-plugin-import": "^2.13.0",
+    "eslint": "^5.4.0",
+    "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-prettier": "^2.6.2",
     "eslint-plugin-sort-imports-es6-autofix": "^0.3.0"
   },
   "peerDependencies": {
-    "eslint": "^4.19.1",
-    "eslint-plugin-import": "^2.13.0",
+    "eslint": "^4.19.1 || ^5.4.0",
+    "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-prettier": "^2.6.2",
     "eslint-plugin-sort-imports-es6-autofix": "^0.3.0"
   },
