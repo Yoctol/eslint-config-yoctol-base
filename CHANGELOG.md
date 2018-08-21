@@ -1,3 +1,10 @@
+# 0.17.1 / 2018-08-21
+
+- [new] add `eslint` v5 support
+- [deps] update `eslint-config-airbnb-base` to `13.1.0`
+- [deps] update `eslint-plugin-import` to `2.14.0`
+- [deps] update `prettier` to `1.14.2`
+
 # 0.17.0 / 2018-07-23
 
 - [new] add `sort-imports-es6-autofix` to sort imports
