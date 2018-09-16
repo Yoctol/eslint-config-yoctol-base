@@ -1,3 +1,7 @@
+# 0.17.2 / 2018-09-16
+
+- [new] improve `import/no-extraneous-dependencies` by merging latest airbnb config
+
 # 0.17.1 / 2018-08-21
 
 - [new] add `eslint` v5 support
