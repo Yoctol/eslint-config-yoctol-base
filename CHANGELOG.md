@@ -1,3 +1,7 @@
+# 0.18.0 / 2018-10-24
+
+- [deps] peerDependencies `eslint-plugin-prettier` to `v3.0.0`
+
 # 0.17.2 / 2018-09-16
 
 - [new] improve `import/no-extraneous-dependencies` by merging latest airbnb config
