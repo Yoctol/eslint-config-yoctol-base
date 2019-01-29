@@ -1,3 +1,12 @@
+# 0.19.0 / 2019-01-29
+
+- [new] `'prefer-arrow-callback': ['error', { allowNamedFunctions: true }]`
+- [deps] update `eslint-config-prettier` to `4.0.0`
+- [deps] update `prettier` to `1.16.1`
+- [deps] peerDependencies `eslint` to `v5.12.1`
+- [deps] peerDependencies `eslint-plugin-import` to `v2.15.0`
+- [deps] peerDependencies `eslint-plugin-prettier` to `v3.0.1`
+
 # 0.18.0 / 2018-10-24
 
 - [deps] peerDependencies `eslint-plugin-prettier` to `v3.0.0`
