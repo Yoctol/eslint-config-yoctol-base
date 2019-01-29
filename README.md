@@ -105,6 +105,7 @@ See [Airbnb's overarching ESLint config](https://npmjs.com/eslint-config-airbnb)
 
 ```
 - 'arrow-parens': ['error', 'as-needed']
+- 'prefer-arrow-callback': ['error', { allowNamedFunctions: true }]
 - 'prefer-destructuring': [
   'error',
   {
