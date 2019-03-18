@@ -1,3 +1,8 @@
+# 0.19.1 / 2019-03-18
+
+- [deps] update `eslint-plugin-sort-imports-es6-autofix` to `v0.4.0`
+- [deps] update `eslint`
+
 # 0.19.0 / 2019-01-29
 
 - [new] `'prefer-arrow-callback': ['error', { allowNamedFunctions: true }]`
