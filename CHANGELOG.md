@@ -1,3 +1,13 @@
+# 0.21.0 / 2019-08-12
+
+- [new] add `eslint` v6 support
+- [deps] bump other deps
+
+# 0.20.0 / 2019-03-18
+
+- [CI] remove node 6 and add node 10
+- [deps] bump deps
+
 # 0.19.1 / 2019-03-18
 
 - [deps] update `eslint-plugin-sort-imports-es6-autofix` to `v0.4.0`
