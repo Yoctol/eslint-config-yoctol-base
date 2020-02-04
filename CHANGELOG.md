@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## 0.22.0 / 2020-02-04
+
+- [breaking] requires `node>=10`
+- [deps] bump other deps
+
 ## 0.21.2 / 2019-09-05
 
 - [deps] update dependency eslint-plugin-sort-imports-es6-autofix to 0.5.0
