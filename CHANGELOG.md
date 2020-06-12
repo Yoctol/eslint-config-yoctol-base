@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## 0.23.1 / 2020-06-12
+
+- [deps] support ESLint v7
+- [deps] bump other deps
+
 ## 0.23.0 / 2020-04-28
 
 - [deps] move `prettier` to peerDeps
