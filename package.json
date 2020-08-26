@@ -33,7 +33,7 @@
     "eslint-plugin-import": "2.22.0",
     "eslint-plugin-prettier": "3.1.4",
     "eslint-plugin-sort-imports-es6-autofix": "0.5.0",
-    "prettier": "2.0.5"
+    "prettier": "2.1.1"
   },
   "peerDependencies": {
     "eslint": "^6.1.0 || ^7.0.0",
