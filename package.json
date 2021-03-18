@@ -32,14 +32,14 @@
     "eslint": "7.20.0",
     "eslint-plugin-import": "2.22.1",
     "eslint-plugin-prettier": "3.3.1",
-    "eslint-plugin-sort-imports-es6-autofix": "0.5.0",
+    "eslint-plugin-sort-imports-es6-autofix": "0.6.0",
     "prettier": "2.2.1"
   },
   "peerDependencies": {
     "eslint": "^6.1.0 || ^7.0.0",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-prettier": "^3.1.0",
-    "eslint-plugin-sort-imports-es6-autofix": "^0.5.0",
+    "eslint-plugin-sort-imports-es6-autofix": "^0.5.0 || ^0.6.0",
     "prettier": ">=2.0.0"
   },
   "engines": {
