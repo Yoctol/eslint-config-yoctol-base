@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## 0.24.0 / 2021-03-29
+
+- [deps] use `eslint>=7.7` as peerDeps
+- [deps] bump other deps
+
 ## 0.23.1 / 2020-06-12
 
 - [deps] support ESLint v7
