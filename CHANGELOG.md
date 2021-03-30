@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 0.24.1 / 2021-03-30
+
+- [fix] autofix conflict with `eslint`. ref: <https://github.com/prettier/eslint-plugin-prettier/issues/65>
+
 ## 0.24.0 / 2021-03-29
 
 - [deps] use `eslint>=7.7` as peerDeps

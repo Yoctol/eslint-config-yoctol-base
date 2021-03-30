@@ -192,7 +192,9 @@ See [Airbnb's overarching ESLint config](https://npmjs.com/eslint-config-airbnb)
   {
     trailingComma: 'es5',
     singleQuote: true
-  }
+  },
+  'arrow-body-style': 'off',
+  'prefer-arrow-callback': 'off',
 ]
 ```
 
