@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 0.24.2 / 2021-09-17
+
+- [deps] support `eslint-plugin-prettier` >= 4.
+
 ## 0.24.1 / 2021-03-30
 
 - [fix] autofix conflict with `eslint`. ref: <https://github.com/prettier/eslint-plugin-prettier/issues/65>
